@@ -1,0 +1,32 @@
+{
+  "name": "bm-oidc",
+  "version": "1.0.0",
+  "description": "redux oidc bridge",
+  "main": "dist/bm-oidc.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sschauss/bm-oidc.git"
+  },
+  "author": "Simon Schauß",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack -p --colors --progress",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "peerDependencies": {
+    "oidc-client": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.2.1",
+    "webpack": "^3.7.1"
+  }
+}
