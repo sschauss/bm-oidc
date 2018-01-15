@@ -1,9 +1,8 @@
 {
   "name": "bm-oidc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "redux oidc bridge",
   "main": "dist/bm-oidc.js",
-  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/sschauss/bm-oidc.git"
