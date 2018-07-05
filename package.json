@@ -1,6 +1,6 @@
 {
   "name": "bm-oidc",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "redux oidc bridge",
   "main": "dist/bm-oidc.js",
   "repository": {
@@ -19,10 +19,11 @@
     "oidc-client": "^1.5.2-beta.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.3",
-    "babel-preset-env": "^1.6.1",
-    "jest": "^22.4.2",
-    "webpack": "^4.0.1"
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.7.0",
+    "jest": "23.3.0",
+    "webpack": "4.12.0",
+    "webpack-cli": "3.0.8"
   }
 }
